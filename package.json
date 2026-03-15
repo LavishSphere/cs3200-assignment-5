@@ -1,0 +1,28 @@
+{
+  "name": "cs3200-assignment-5",
+  "version": "1.0.0",
+  "description": "Packages needed for Assignment 5 - Use MongoDB",
+  "main": "queries",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LavishSphere/cs3200-assignment-5.git"
+  },
+  "keywords": [
+    "mongodb",
+    "node",
+    "nodejs",
+    "js",
+    "javascript",
+    "assignment",
+    "cs3200"
+  ],
+  "author": "Ashsmith Khayrul",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LavishSphere/cs3200-assignment-5/issues"
+  },
+  "homepage": "https://github.com/LavishSphere/cs3200-assignment-5#readme"
+}
