@@ -10,6 +10,7 @@
 
 Queries can be found in [queries](./queries).
 Before running queries, ensure you are in the right database by executing `use ieeevisTweets`.
+For Query 5, new collections are made so be sure to refresh the connection to see the new collections once the queries are run on MongoDB Compass. It may seem like the queries did nothing when all it needs is a refresh!
 
 - Query1: How many tweets are not retweets or replies? (hint the field retweeted_status contains an object when the tweet is a retweeet)
 
