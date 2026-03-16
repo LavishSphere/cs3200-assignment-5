@@ -3,7 +3,13 @@
 
 ### By: Ashsmith Khayrul
 
+**Loading the data**
+- Download the tweets generated during the 2020 ieeevis Conference: https://johnguerra.co/viz/influentials/ieeevis2020/ieeevis2020Tweets.dump.bz2
+- Unzip the file. After extraction you should have a .dump
+- Import the file using mongoimport
+
 Queries can be found in [queries](./queries).
+Before running queries, ensure you are in the right database by executing `use ieeevisTweets`.
 
 - Query1: How many tweets are not retweets or replies? (hint the field retweeted_status contains an object when the tweet is a retweeet)
 

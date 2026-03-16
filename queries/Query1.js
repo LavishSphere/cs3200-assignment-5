@@ -1,1 +1,6 @@
-// How many tweets are not retweets or replies? (hint the field retweeted_status contains an object when the tweet is a retweeet)
+// How many tweets are not retweets or replies?
+
+db.tweet.countDocuments({
+  "in_reply_to_status_id": null,
+  "retweeted_status": { "$exists": false }
+});
